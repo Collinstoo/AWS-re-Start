@@ -1,7 +1,4 @@
-age = int(input("Enter your age: "))
-if age < 18:
-    print("You are a minor.")
-elif age == 18:
-    print("You are just an adult.")
-else:
-    print("You are an adult.")
+names = {"John", "Alice", "Bob"}
+for name in names:
+    NewName = name.upper()
+    print(NewName)
