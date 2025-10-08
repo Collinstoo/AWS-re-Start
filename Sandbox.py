@@ -1,5 +1,7 @@
-password = str(input("Enter the password: "))
-if password == "OpenSesame":
-    print("Access Granted")
+age = int(input("Enter your age: "))
+if age < 18:
+    print("You are a minor.")
+elif age == 18:
+    print("You are just an adult.")
 else:
-    print("Access Denied")
+    print("You are an adult.")
