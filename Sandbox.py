@@ -1,9 +1,8 @@
-a = 3
-b = 2
-c = 1
+pi=3.14159
 
-def demo():
-    y=a+b+c
-    print(y)
-    return y
-demo()
+def calculate_area_circle(radius):
+    return pi * radius * 2
+
+r=int(input("Enter radius: "))
+area=calculate_area_circle(r)
+print(area)
