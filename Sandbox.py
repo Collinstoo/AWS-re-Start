@@ -1,8 +1,5 @@
-pi=3.14159
+import math
+absolute=5.999
+floor_test=198.42
 
-def calculate_area_circle(radius):
-    return pi * radius * 2
-
-r=int(input("Enter radius: "))
-area=calculate_area_circle(r)
-print(area)
+result=math.fabs(absolute)
