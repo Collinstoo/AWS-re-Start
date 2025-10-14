@@ -1,0 +1,7 @@
+print("Welcome to restart")
+f1=open("Labs/files/diary.txt","r")
+f2=open("Labs/files/diary2.txt","r")
+print(f1.read())
+f1.close()
+print(f2.read())
+f2.close()  
